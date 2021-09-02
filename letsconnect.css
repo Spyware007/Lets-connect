@@ -151,7 +151,7 @@ i{
     transition:all 0.3s ease;
 }
 .fa-facebook:hover {
-    font-size:110px;
+    font-size:100px;
     transform:rotatez(360deg);
 }
 .fa-github:hover {
