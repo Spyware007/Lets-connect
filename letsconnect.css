@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins;wght@200;300;400;500;600;700;800&display=swap');
 *{
     padding:0;
     margin:0;
@@ -9,6 +10,94 @@ body {
     justify-content:center;
     align-items:center;
 }
+.about-right{
+    background:white;
+    height: 100vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+}
+.about-right h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.about-right h1 span,.about-right h2 span{
+    color: rgb(230, 163, 20);
+}
+.about-right h2{
+    font-weight: 600;
+}
+.about-btns{
+    display: flex;
+    margin:2rem 0;
+}
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform:uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin:0 0.5rem;
+    cursor: pointer;
+}
+.btn.btn-blue{
+    background:#1293D2;
+    color: #fff;
+    border-color: #1293D2;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-blue:hover{
+    background: transparent;
+    border-color: #1293D2;
+    color: #000;
+}
+.btn.btn-orange{
+    background: orange;
+    color: #fff;
+    border-color: orange;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-orange:hover{
+    background: transparent;
+    border-color: #dd2d4a;
+    color: #000;
+}
+.btn.btn-white{
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-white:hover{
+    background: #dd2d4a;
+    border-color: #dd2d4a;
+    color: #fff;
+}
+.about-para p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+@media screen and (min-width:992px){
+    .about-wrapper{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-left{
+        position: relative;
+    }
+    .about-left-content{
+        position: absolute;
+        right: -50px;
+    }
+}
+
 .social-icons { 
     font-size:10px;
     display: inline-block;
@@ -18,6 +107,7 @@ body {
 }
 .social-icons ul li{
     display: inline-block;
+    color:bisque;
 }
 i{
     margin:20px;
@@ -61,7 +151,7 @@ i{
     transition:all 0.3s ease;
 }
 .fa-facebook:hover {
-    font-size:100px;
+    font-size:110px;
     transform:rotatez(360deg);
 }
 .fa-github:hover {
