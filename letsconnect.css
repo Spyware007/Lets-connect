@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    background:black;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.social-icons { 
+    font-size:10px;
+    display: inline-block;
+}
+.social-icons ul{
+    list-style: none;
+}
+.social-icons ul li{
+    display: inline-block;
+}
+i{
+    margin:20px;
+}
+.fa-instagram{
+    background:linear-gradient(to right top, yellow,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-github{
+    background:linear-gradient(to right top, #4b615a,#756565);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-envelope{
+    background:linear-gradient(to right top, #34A853,#EA4335,#0E76A8,#4b615a,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-linkedin{
+    background:linear-gradient(to right top, #0E76A8,#1293D2,#007DBB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-whatsapp{
+    background:linear-gradient(to right top, green,lime);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-twitter{
+    background:linear-gradient(to right top, aqua,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-facebook{
+    background:linear-gradient(to right top, blue,aqua);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa{
+    transition:all 0.3s ease;
+}
+.fa-facebook:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-github:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-envelope:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-instagram:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-linkedin:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-twitter:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
+.fa-whatsapp:hover {
+    font-size:100px;
+    transform:rotatez(360deg);
+}
