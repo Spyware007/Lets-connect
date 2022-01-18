@@ -133,7 +133,6 @@ i {
 
 .about-right h1 {
   font-size: 7rem;
-  text-transform: uppercase;
 }
 .about-right h1 span,
 .about-right h2 span {
@@ -199,7 +198,7 @@ i {
 
 @media (max-width: 768px) {
   .social-icons-left {
-    width: 20vw;
+    width: 18vw;
     padding: 0 20px;
   }
   .fa-instagram,
@@ -221,7 +220,7 @@ i {
     font-size: 50px;
   }
   .about-right {
-    width: 80vw;
+    width: 82vw;
     padding-bottom: 80px;
   }
   .about-right h1 {
