@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins;wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons-left {
+  width: 30vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons-left ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.social-icons-left ul li {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  text-align: center;
+}
+i {
+  margin: 0 20px;
+}
+.fa-instagram {
+  background: linear-gradient(to right top, yellow, red, blue);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-github {
+  background: linear-gradient(to right top, #4b615a, #756565);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa-envelope {
+  background: linear-gradient(
+    to right top,
+    #34a853,
+    #ea4335,
+    #0e76a8,
+    #4b615a,
+    blue
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa-linkedin {
+  background: linear-gradient(to right top, #0e76a8, #1293d2, #007dbb);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa-whatsapp {
+  background: linear-gradient(to right top, green, lime);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa-twitter {
+  background: linear-gradient(to right top, aqua, blue);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa-facebook {
+  background: linear-gradient(to right top, blue, aqua);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+}
+.fa {
+  transition: all 0.3s ease;
+}
+.fa-facebook:hover {
+  font-size: 110px;
+  transform: rotatez(360deg);
+}
+.fa-github:hover {
+  font-size: 100px;
+  transform: rotatez(360deg);
+}
+.fa-envelope:hover {
+  font-size: 100px;
+  transform: rotatez(360deg);
+}
+.fa-instagram:hover {
+  font-size: 100px;
+  transform: rotatez(360deg);
+}
+.fa-linkedin:hover {
+  font-size: 100px;
+  transform: rotatez(360deg);
+}
+.fa-twitter:hover {
+  font-size: 110px;
+  transform: rotatez(360deg);
+}
+.fa-whatsapp:hover {
+  font-size: 100px;
+  transform: rotatez(360deg);
+}
+
+.about-right {
+  width: 70vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-right h1 {
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+.about-right h1 span,
+.about-right h2 span {
+  color: rgb(230, 163, 20);
+}
+.about-right h2 {
+  font-weight: 600;
+}
+.about-btns {
+  display: flex;
+  margin: 2rem 0;
+}
+.btn {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.btn.btn-blue {
+  background: #1293d2;
+  color: #fff;
+  border-color: #1293d2;
+  transition: all 0.5s ease-in-out;
+}
+.btn.btn-blue:hover {
+  background: transparent;
+  border-color: #1293d2;
+  color: #000;
+}
+.btn.btn-orange {
+  background: orange;
+  color: #fff;
+  border-color: orange;
+  transition: all 0.5s ease-in-out;
+}
+.btn.btn-orange:hover {
+  background: transparent;
+  border-color: #dd2d4a;
+  color: #000;
+}
+.btn.btn-white {
+  transition: all 0.5s ease-in-out;
+}
+.btn.btn-white:hover {
+  background: #dd2d4a;
+  border-color: #dd2d4a;
+  color: #fff;
+}
+.about-para p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  opacity: 0.8;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .social-icons-left {
+    width: 20vw;
+    padding: 0 20px;
+  }
+  .fa-instagram,
+  .fa-envelope,
+  .fa-facebook,
+  .fa-github,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-whatsapp {
+    font-size: 40px;
+  }
+  .fa-instagram:hover,
+  .fa-envelope:hover,
+  .fa-facebook:hover,
+  .fa-github:hover,
+  .fa-linkedin:hover,
+  .fa-twitter:hover,
+  .fa-whatsapp:hover {
+    font-size: 50px;
+  }
+  .about-right {
+    width: 80vw;
+    padding-bottom: 80px;
+  }
+}
