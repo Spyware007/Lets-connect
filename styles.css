@@ -224,4 +224,10 @@ i {
     width: 80vw;
     padding-bottom: 80px;
   }
+  .about-right h1 {
+    font-size: 5rem;
+  }
+  .about-right h2 {
+    font-size: 1.5rem;
+  }
 }
